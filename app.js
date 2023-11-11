@@ -6,7 +6,9 @@
 let g = document.querySelector(".votedcontainer");
 let h =0;
 let counting = 0
-
+function Signuppage(){
+    window.location.href = "index.html"
+}
 g.addEventListener('click', function(e){
 // =========for only one time login=======================
 let checkloginlastpersonid = JSON.parse(localStorage.getItem("loginlastpersonid"));
